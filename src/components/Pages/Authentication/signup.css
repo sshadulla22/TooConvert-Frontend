@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
