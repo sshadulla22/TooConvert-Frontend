@@ -46,7 +46,7 @@ function App() {
       <Route path="/utility-tools" element={<UtilityTools />} />
       <Route path="/mockup-tool" element={<MockupTool />} />
       <Route path="/image-tools" element={<ImageTools />} />
-  =   <Route path="/login" element={<Login />} />
+      <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
