@@ -61,6 +61,7 @@ body {
   display: flex;
   /* Horizontal links */
   list-style: none;
+  color: #000000;
   /* Remove bullets */
   gap: 30px;
   /* Spacing between links */
@@ -169,6 +170,7 @@ body {
 
   .nav-links {
     display: none;
+  
     /* Hide links on mobile (optional) */
   }
 
