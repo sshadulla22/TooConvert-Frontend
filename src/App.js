@@ -28,7 +28,6 @@ function App() {
   return (
     <>
    <Routes>
-      <Route path="*" element={<NotFound />} />
       <Route path="/" element={<LandingPage/>} />
       <Route path="/main" element={<Main />} />
       <Route path="/pdf-compressor" element={<PdfCompressor />} />
@@ -49,6 +48,7 @@ function App() {
       <Route path="/image-tools" element={<ImageTools />} />
   =   <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
     </>
   );
