@@ -74,6 +74,10 @@ const LandingPage = () => {
           <li><a href="#faq-section">FAQ</a></li>
         </ul>
       </nav>
+      <br></br>
+      <br></br>
+      <br></br>
+
 
       {/* Hero Section */}
       <section id="hero" className="hero">
@@ -86,7 +90,7 @@ const LandingPage = () => {
 
       {/* Info Cards Section */}
       <section id="tools" className="info-container">
-        <h2 className="section-title">TooConvert – All-in-One Productivity Toolkit</h2>
+        <h2 style={{color:"black"}} className="section-title">TooConvert – All-in-One Productivity Toolkit</h2>
         <p className="section-subtitle-1">Simplify your workflow with fast, secure, and reliable tools for every need.</p>
 
         <div className="info-cards">
@@ -161,9 +165,9 @@ const LandingPage = () => {
       width: "100%",
       padding: "4px 6px",
       borderRadius: "6px",
-      border: "1px solid white",
-      background: "#111",
-      color: "#fff",
+      border: "1px solid #dee2e6",
+      background: "#ffffff",
+      color: "#212529",
       marginTop: "10px",
       cursor: "pointer"
     }}
@@ -202,9 +206,9 @@ const LandingPage = () => {
       width: "100%",
       padding: "4px 6px",
       borderRadius: "6px",
-      border: "1px solid white",
-      background: "#111",
-      color: "#fff",
+      border: "1px solid #dee2e6",
+      background: "#ffffff",
+      color: "#212529",
       marginTop: "10px",
       cursor: "pointer"
     }}
@@ -287,7 +291,7 @@ const LandingPage = () => {
       {/* Popular Conversions */}
       <div id="popular" className="about-why-container">
         <section className="popular-section">
-          <h2 className="section-title">Popular Conversions</h2>
+          <h2  className="section-title">Popular Conversions</h2>
           <ul className="popular-list">
             <li><FontAwesomeIcon icon={faFilePdf} /> PDF to DOCX</li>
             <li><FontAwesomeIcon icon={faFileWord} /> Image to PDF</li>

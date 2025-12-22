@@ -146,7 +146,7 @@ export default function PdfToDocx() {
 
         {!file ? (
           <div style={styles.dropzoneContent}>
-            <div style={styles.uploadIcon}><FontAwesomeIcon icon={faUpload} size="0x" color="#3b82f6" /></div>
+            <div style={styles.uploadIcon}><FontAwesomeIcon icon={faUpload} size="0x" color="#d4d4d4ff" /></div>
             <h3 style={styles.dropzoneTitle}>Drop your PDF here</h3>
             <p style={styles.dropzoneText}>or click to browse files</p>
             <div style={styles.supportedFormats}>
@@ -227,8 +227,8 @@ const styles = {
   title: {
     fontSize: "1.5rem",
     fontWeight: "600",
-    margin: "0 0 0.5rem 0",
-    color: "#ffffff",
+    margin: "1rem",
+    color: "#000000ff",
   },
   description: {
     color: "#888888",
@@ -236,17 +236,17 @@ const styles = {
     fontSize: "0.95rem",
   },
   dropzone: {
-    border: "2px dashed #404040",
+    border: "2px dashed #cac9c9ff",
     borderRadius: "12px",
     padding: "3rem 2rem",
     textAlign: "center",
     cursor: "pointer",
     transition: "all 0.3s ease",
-    backgroundColor: "#000000ff",
+    backgroundColor: "#ffffffff",
     marginBottom: "1.5rem",
   },
   dropzoneActive: {
-    borderColor: "#2563eb",
+    borderColor: "#000000ff",
     backgroundColor: "#1e3a8a",
     transform: "scale(1.02)",
   },
@@ -268,11 +268,12 @@ const styles = {
     fontSize: "3rem",
     marginBottom: "0.5rem",
   },
+  
   dropzoneTitle: {
     fontSize: "1.2rem",
     fontWeight: "600",
     margin: 0,
-    color: "#ffffff",
+    color: "#a1a0a0ff",
   },
   dropzoneText: {
     color: "#888888",

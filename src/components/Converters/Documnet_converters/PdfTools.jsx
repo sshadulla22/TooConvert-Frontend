@@ -94,26 +94,34 @@ export default function PdfTools() {
     display: "grid",
     gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
     gap: "1.5rem",
-    maxWidth: "1200px",
+    padding:"1rem",
+    border:"1px solid #e6e6e6ff",
+    backgroundColor:"#ffffffff",
+    borderRadius:"12px",
+    maxWidth: "1300px",
     margin: "0 auto",
   };
 
   const cardStyle = {
-    border: "1px solid #ffffff33",
+
     borderRadius: "12px",
-    padding: "1rem",
+    marginTop:"1rem",
+    marginBottom:"1rem",
+    padding: "0.5rem",
     textAlign: "center",
-    backgroundColor: "#1a1a1a",
+    backgroundColor: "#ffffffff",
   };
 
   const dropStyle = {
     width: "100%",
     padding: "2rem",
-    border: "2px dashed #4b5563",
+    marginTop:"1rem",
+    marginBottom:"1rem",
+    border: "2px dashed #cfceceff",
     borderRadius: "12px",
     textAlign: "center",
     cursor: "pointer",
-    backgroundColor: "#000000ff",
+    backgroundColor: "#ffffffff",
     marginBottom: "1rem",
   };
 
@@ -132,10 +140,11 @@ export default function PdfTools() {
   const inputStyle = {
     width: "100%",
     padding: "10px",
+    marginTop:"1rem",
     borderRadius: "6px",
-    border: "1px solid #374151",
-    backgroundColor: "#1f2937",
-    color: "#f9fafb",
+    border: "1px solid #e6e6e6ff",
+    backgroundColor: "#ffffffff",
+    color: "#000000ff",
     marginBottom: "1rem",
     boxSizing: "border-box",
   };

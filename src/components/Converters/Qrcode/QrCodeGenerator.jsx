@@ -44,7 +44,7 @@ export default function QrCodeGenerator() {
 
   const styles = {
     container: { padding: 20, fontFamily: "Arial, sans-serif", color: "#f5f5f5", textAlign: "center" },
-    input: { width: "100%", padding: 12, margin: "10px 0 20px 0", borderRadius: 5, border: "1px solid #000", backgroundColor: "#2b2b2b", color: "#f5f5f5" },
+    input: { width: "100%", padding: 12, margin: "10px 0 20px 0", borderRadius: 5, border: "1px solid #cbcbcbff", backgroundColor: "#ffffffff", color: "#f5f5f5" },
     button: { padding: "12px 24px", border: "none", borderRadius: 5, backgroundColor: "#3b82f6", color: "#fff", cursor: "pointer", fontWeight: "bold", margin: "10px 5px" },
     heading: { marginBottom: 15 },
     qrPreview: { marginTop: 20, maxWidth: 300, maxHeight: 300 },

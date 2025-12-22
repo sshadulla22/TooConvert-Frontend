@@ -93,7 +93,7 @@ function App() {
                 <aside className={`sidebar-container ${isSidebarOpen ? "open" : "closed"}`}>
                     <div className="brand-logo">
                         <img src={logo} height={"40px"} width={"40px"} alt="" />
-                        <h2 style={{ color: "white", fontSize: "20px", fontWeight: "bold" }}>tooconvert.in</h2>
+                        <h2 style={{ color: "#2EB3B0", fontSize: "20px", fontWeight: "bold" }}>tooconvert.in</h2>
                     </div>
                     <div className="sidebar-menu">
                         {tools.map((t) => (

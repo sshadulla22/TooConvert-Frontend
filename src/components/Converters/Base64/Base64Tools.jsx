@@ -61,14 +61,14 @@ export default function Base64Tools() {
   const dropStyle = {
     width: "100%",
     margin: "10px 0 15px 0",
-    border: "2px dashed #404040",
+    border: "2px dashed #b0b0b0ff",
     borderRadius: "12px",
     padding: "3rem 2rem",
     textAlign: "center",
     cursor: "pointer",
     transition: "all 0.3s ease",
-    backgroundColor: "#1a1a1a",
-    color: "#f5f5f5",
+    backgroundColor: "#ffffffff",
+    color: "#000000ff",
     marginBottom: "1.5rem",
     boxSizing: "border-box",
   };
@@ -89,8 +89,8 @@ export default function Base64Tools() {
     padding: 10,
     margin: "10px 0 20px 0",
     borderRadius: 5,
-    border: "1px solid #ffffff",
-    backgroundColor: "#000000",
+    border: "1px solid #b8b8b8ff",
+    backgroundColor: "#ffffffff",
     color: "#f5f5f5",
     boxSizing: "border-box",
   };
