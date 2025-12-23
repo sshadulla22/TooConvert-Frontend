@@ -58,13 +58,14 @@ const LandingPage = () => {
   }
 
 
+
   return (
     <div className="landing">
 
       {/* Navbar */}
       <nav className="navbar">
         <h2 className="logo">
-          <img src={logo} alt="TooConvert Logo" height="50" width="50" /> TooConvert
+          <img src={logo} alt="TooConvert Logo" height="50" width="50" />
         </h2>
         <ul className="nav-links">
           <li><a href="#hero">Home</a></li>
@@ -78,6 +79,13 @@ const LandingPage = () => {
       <br></br>
       <br></br>
 
+   {/* <div className="overflow-hidden whitespace-nowrap">
+      <div className="inline-block pl-full animate-marquee text-xl font-bold">
+        Shadulla 🚀
+      </div>
+    </div> */}
+
+ 
 
       {/* Hero Section */}
       <section id="hero" className="hero">

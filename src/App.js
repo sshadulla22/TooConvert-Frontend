@@ -22,6 +22,8 @@ import UtilityTools from "./components/Converters/Utility_Tools/UtilityTools";
 import NotFound from "./components/Pages/Status/notFound";
 import Login from  "./components/Pages/Authentication/Login";
 import Signup from "./components/Pages/Authentication/Singup";
+import './index.css'
+
 
 function App() {
  
